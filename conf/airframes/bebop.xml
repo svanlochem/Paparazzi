@@ -34,6 +34,10 @@
     </load-->
   </modules>
 
+  <firmware name="test_progs">
+    <target name="test_imu" board="bebop"/>
+  </firmware>
+
   <commands>
     <axis name="PITCH" failsafe_value="0"/>
     <axis name="ROLL" failsafe_value="0"/>
